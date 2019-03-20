@@ -1,0 +1,170 @@
+@charset "utf-8";
+
+
+/* tablet 768~1259px strart */
+@media all and (max-width:1259px) and (min-width:768px){
+    
+    /* common */
+    
+    #ws_part, #ws_ft{display: none}
+    .ws_center{
+        max-width:100%;
+    }
+    .ws_subject{
+        font-size:2.8vw;
+    }
+    
+    /* header */
+    #ws_hd{
+        position:fixed;
+        top:0;
+        left:0;
+        width:100%;
+        z-index:999;
+    }
+    .ws_hd_logo{
+        top:50%;
+        left:20px;
+        transform:translateY(-50%);
+        width:15vw;
+    }
+    .ws_navi{
+        padding-top:0;
+    }
+    .ws_menu{
+        padding:0 20px 0 30vw;
+    }
+    .ws_menu>li>a{
+        font-size:1.4vw;
+    }
+    
+    /* banner */
+    .ws_banner{
+        margin-top:59px;
+    }
+    .banner_story{
+        height:450px;
+    }
+    .banner_story>.bn_st1{
+        font-size:2.8vw;
+    }
+    @keyframes ani_st1{
+        0%{
+            opacity:0;
+            transform:translateX(-50%) translateY(-44%);  
+        }
+        100%{
+            opacity:1;
+            transform:translateX(-96%) translateY(-44%);
+        }
+    }
+    .bn_st1>div>a{
+        font-size:2vw;
+    }
+    .bn_st1>div>a:nth-child(1){
+        margin-right:15px;
+    }
+    .bn_st2>img{
+        height:34vw;
+    }
+    @keyframes ani_st2{
+        0%{
+            transform:translateX(50%) translateY(-44%);
+        }
+        100%{
+            transform:translateX(100%) translateY(-44%);
+        }
+    }
+    
+    /* About US */
+    #ws_home{
+        padding:110px 30px;
+    }
+    #ws_home>dl{
+        height:234px;
+    }
+    #ws_home>dl>dt{
+        font-size:2.2vw;
+        margin-bottom:20px;
+    }
+    #ws_home>dl>dd{
+        font-size:1.9vw;
+    }
+    
+    /* features */
+    #ws_feature{
+        padding:0 30px 110px;
+    }
+    .feature_wrap>div{
+        padding:25px 10px;
+    }
+    .sub_title{
+        margin-top:25px;
+    }
+    .sub_explain{
+        display:block;
+        position:static;
+        height:194px;
+        padding:25px 0 0;
+        color:#333;
+        font-size:1.6vw;
+        background:transparent;
+    }
+    
+} /* tablet E */
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile 767px strart */
+@media all and (max-width:767px){
+    
+    .ws_banner, #ws_home, #ws_feature, #ws_preview, .ws_download, #ws_part, #ws_ft{display: none}
+    .ws_center{
+        max-width:100%;
+    }
+    .ws_subject{
+        font-size:2vw;
+    }
+    
+    
+} /* mobile E */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

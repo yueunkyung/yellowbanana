@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 
-/* reset */
+/* setting */
 html{
     scroll-behavior:smooth;
 }
@@ -43,6 +43,7 @@ img{
 /* header */
 
 #ws_hd{
+    position:relative;
     background:#532480;
     box-sizing:border-box;
     border-bottom:1px solid #aaa;
@@ -157,12 +158,13 @@ img{
 }
 .bn_st1>div{
     text-align:center;
-    box-sizing:border-box;
     padding-right:70px;
 }
 .bn_st1>div>a{
+    display:inline-block;
     padding:6px 10px;
     color:#fff;
+    box-sizing:border-box;
     border-radius:10px;
     font-size:20px;
     font-weight:normal;
@@ -427,7 +429,7 @@ img{
 }
 #ws_ft>div{
     position:relative;
-    padding:40px 0px;
+    padding:40px 30px;
     color:#fff;
 }
 .ft_logo{
@@ -446,6 +448,7 @@ img{
     bottom:35px;
     right:30px;
 }
+
 
 
 

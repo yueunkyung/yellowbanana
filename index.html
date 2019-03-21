@@ -8,6 +8,8 @@
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/ws_common.css" rel="stylesheet">
     <link href="css/ws_common_res.css" rel="stylesheet">
+    <script src="js/jquery.1.12.3.min.js"></script>
+    <script src="js/ws_common.js"></script>
     <title>World Spon</title>
     
     <!--[if lte IE 8]>
@@ -23,13 +25,26 @@
             <nav class="ws_navi">
                 <h2 class="ws_blind">navigation</h2>
                 <ul class="ws_menu ws_clear">
-                    <li><a href="#ws_banner">HOME</a></li>
+                    <li><a href="#ws_hd">HOME</a></li>
                     <li><a href="#ws_home">ABOUT</a></li>
                     <li><a href="#ws_feature">FEATURE</a></li>
                     <li><a href="#ws_preview">PREVIEW</a></li>
                     <li><a href="#ws_part">PARTNERSHIP</a></li>
                     <li><a href="#ws_ft">CONTACT</a></li>
                 </ul>
+                <div class="m_menu_wrap">
+                    <button class="btn_menu">
+                        <span></span>
+                    </button>
+                    <ul class="m_ws_menu">
+                        <li><a href="#ws_hd">HOME</a></li>
+                        <li><a href="#ws_home">ABOUT</a></li>
+                        <li><a href="#ws_feature">FEATURE</a></li>
+                        <li><a href="#ws_preview">PREVIEW</a></li>
+                        <li><a href="#ws_part">PARTNERSHIP</a></li>
+                        <li><a href="#ws_ft">CONTACT</a></li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </header>
@@ -87,7 +102,6 @@
             </div>
         </div>
     </section>
-    <!--이따가 다시 마크업 참고해서 하기-->
     <section id="ws_preview">
         <div class="preview_wrap ws_center">
             <h2 class="ws_subject">PREVIEW</h2>
@@ -102,7 +116,6 @@
             </div>
         </div>
     </section>
-    <!--이따가 다시 마크업 참고해서 하기-->
     <section class="ws_download ws_center">
         <h2>지금 바로 월드스폰만의 강력한 리워드를 경험해보세요 !</h2>
         <a href="https://play.google.com/store/apps/details?id=com.coinbank.worldspon&hl=ko" target="_blank"><img src="img/img_googleplay.png" alt="google_play"></a>
@@ -122,8 +135,8 @@
            <div class="ft_wrap">
                 <h2 class="ft_logo"><img src="img/logo_white.png" alt="worldspon logo"></h2>
                 <p>사업자등록번호 : 374-86-00996</p>
-                <p>업종 : 전자상거래</p>
-                <p>대표이사 : 김성봉</p>
+                <p class="ws_info">업종 : 전자상거래</p>
+                <p class="ws_info">대표이사 : 김성봉</p>
                 <p>주소 : 서울특별시 강남구 테헤란로 63길 14, 9층(삼성동, 인화빌딩)</p>
                 <p>이메일 : help@worldspon.com</p>
                 <span>Copyright &copy; 2019 WORLDSPON Inc. All Rights Reserved.</span>
